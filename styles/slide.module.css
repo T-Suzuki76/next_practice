@@ -1,0 +1,32 @@
+.slide, .gallery{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.img{
+    opacity: 0.2;
+}
+.fade__img{
+    animation: fadeout ease 1s 1 normal;
+}
+
+.slide__thumbnail{
+    display: flex;
+    justify-content: center;
+}
+
+.slide__btn{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 5px;
+}
+
+@keyframes fadeout {
+    0%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 1;
+    }
+}

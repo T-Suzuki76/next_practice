@@ -1,0 +1,38 @@
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill__head{
+    margin-left: 20px;
+}
+.skill__description{
+    margin-left: 20px;
+}
+
+.skill__item{
+    display: flex;
+    align-items: center;
+    margin:20px;
+}
+
+.skill__detail{
+    width: 150px;
+    margin: 0;
+}
+
+.skill__progress{
+    margin-left: 20px;
+}
+
+.skill__back{
+    background-color: lightgray;
+}
+
+.skill__bar{
+    /* width: 150px; */
+    height: 20px;
+    background-color: gray;
+    animation: bar 5s ease;
+}

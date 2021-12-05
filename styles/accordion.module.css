@@ -1,0 +1,54 @@
+/* アコーディオン */
+.accordion__wrapper{
+    display: flex;
+    width:80%;
+    padding: 0 10px;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+.accordion__btn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.accordion__openbtn{
+    transform: rotate(45deg);
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.accordion__btn:hover{
+    transition: ease-in-out .2s;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.accordion__openbtn:hover{
+    transition: ease-in-out .2s;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.answer__wrapper{
+    width: 80%;
+    padding: 0 10px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: none;
+}
+
+.answer__open{
+    width: 80%;
+    padding: 0 10px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: block;
+}
