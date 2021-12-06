@@ -7,9 +7,5 @@ module.exports = {
   },
   images: {
     formats: ['image/avif', 'image/webp']
-  },
-  experimental: {
-    concurrentFeatures: true,
-    serverComponents: true
   }
 }
