@@ -1,31 +1,29 @@
-.container {
-  padding: 0 2rem;
+.container{
+  margin-top: 86px;
 }
 
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.route{
+  width: 80%;
+  margin: 0 auto;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
+.route__btns{
+  text-align: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.route__btn{
+  background-color: gray;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+}
+.route__btn:first-child{
+  margin-right: 50px;
+}
+.route__btn:hover{
+  background-color: lightgray;
+  transition: ease .2s;
 }
 
 .title a {

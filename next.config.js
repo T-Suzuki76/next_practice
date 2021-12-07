@@ -6,10 +6,6 @@ module.exports = {
     optimizeImages: true,
   },
   images: {
-    formats: ['image/avif', 'image/webp']
-  },
-  experimental: {
-    concurrentFeatures: true,
-    serverComponents: true
+    formats: ['image/avif', 'image/webp'],
   }
 }
