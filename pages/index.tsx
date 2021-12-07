@@ -8,8 +8,8 @@ import { useRouter } from 'next/dist/client/router'
 const Home: NextPage = () => {
   const router = useRouter()
 
-  const changePage = (path:string) => {
-    router.push(`/${path}`)
+  const changePage = async(path:string) => {
+    await router.push(`/${path}`)
   }
 
   return (
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <div className={styles.container}>
         <Image src={mv} layout="responsive"/>
         <div className={styles.route}>
-          <h2>Dynamic Routes with "useRouter"</h2>
+          <h2>Dynamic Routes with &quot;useRouter&quot;</h2>
           <div className={styles.route__btns}>
             <button 
               onClick={()=>changePage("practice")}
