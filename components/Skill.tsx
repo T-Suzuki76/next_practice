@@ -1,4 +1,4 @@
-import { FunctionComponent, useEffect, useState } from "react";
+import { FunctionComponent } from "react";
 import Image from 'next/image'
 import styles from '../styles/skill.module.css'
 

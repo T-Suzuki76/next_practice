@@ -6,6 +6,6 @@ module.exports = {
     optimizeImages: true,
   },
   images: {
-    formats: ['image/avif', 'image/webp']
+    formats: ['image/avif', 'image/webp'],
   }
 }

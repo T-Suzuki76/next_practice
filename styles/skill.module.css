@@ -1,14 +1,13 @@
 .skill{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.skill__wrapper{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.skill__head{
-    margin-left: 20px;
-}
-.skill__description{
-    margin-left: 20px;
 }
 
 .skill__item{
